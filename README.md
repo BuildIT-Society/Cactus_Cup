@@ -3,7 +3,7 @@ Custom Cactus Cup lighting system.
 
 Test Commit - Sam Bartek <br>
 Test Commit - Yash Bharatula <br>
-Test Commit - Itsuki Sakamot <br>
+Test Commit - Itsuki Sakamoto <br>
 
 ## How to Burn Program Into Attiny85 Chip <br>
 1. Follow the link for help: https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829 <br>
