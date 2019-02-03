@@ -10,8 +10,8 @@
 #define BEATHIGH 3.0
 #define BEATLOW 1.7
 #define WINDOW 1
-#define microphonePin A0
-#define ledPin 13
+#define microphonePin A1
+#define ledPin 0
 
 
 FilterOnePole bass_high(HIGHPASS,BASSLOW);
@@ -37,7 +37,7 @@ void setup ()
 {
   pinMode(ledPin, OUTPUT);
   pinMode(microphonePin, INPUT);
-  Serial.begin (250000);
+  //Serial.begin (250000);
   stats.setWindowSecs(WINDOW);
   analogReference(INTERNAL);
   prev = millis();
@@ -83,10 +83,10 @@ void loop ()
 //  //delayMicroseconds(20);
 //  sampleTime += 1;
  
-  Serial.print("B ");
-  Serial.print(beat);
-  Serial.print(" B ");
-  Serial.println(thresh);
+  //Serial.print("B ");
+  //Serial.print(beat);
+  //Serial.print(" B ");
+  //Serial.println(thresh);
 //  Serial.print(" F ");
 //  Serial.println(envelope.output());
  //Serial.print(" T: ");
